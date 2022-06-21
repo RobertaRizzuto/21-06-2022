@@ -3,11 +3,11 @@
 (function () {
   const nameArray = ["Luca", "Eleonora", "Roberta", "Pippo", "Pluto"];
 
-  const indexPlusName = nameArray.map((name, index) => `${index}-${name}`);
+  const indexPlusName = nameArray.map((name, index, array) => `${index}-${name}`);
 
-  const nameToReverseIndex = nameArray.map((name, index, array) => index).reverse();
+  const nameToReverseIndex = nameArray.map((name, index, array) => array.length - 1 - index);
 
-  const reverseName = nameArray.reverse().map((name, index, array) => name);
+  const reverseName = nameArray.map((name, index, array) => nameArray[array.length - 1 - index]);
 
   console.log(indexPlusName);
   console.log(nameToReverseIndex);
