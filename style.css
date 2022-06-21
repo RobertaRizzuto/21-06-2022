@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+body {
+font-family: 'Fascinate', cursive;
+height: 100vh;
+background-image: url(Word\ Art.png);
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1 {
+    padding: 60px;
+    backdrop-filter: blur(3px);
+    border-radius: 30px;
+   background-color: rgba(247, 105, 240, 0.589);
+    color: rgb(255, 255, 255);
+    text-shadow:  3px 3px 3px rgb(126, 126, 126);
+box-shadow:  3px 3px 3px rgb(104, 104, 104);}
