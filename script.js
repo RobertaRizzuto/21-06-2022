@@ -8,6 +8,7 @@
   const nameToReverseIndex = nameArray.map((name, index, array) => array.length - 1 - index);
 
   const reverseName = nameArray.map((name, index, array) => nameArray[array.length - 1 - index]);
+  //oppure const newArray = array.length - 1 - index; return newArray;
 
   console.log(indexPlusName);
   console.log(nameToReverseIndex);
